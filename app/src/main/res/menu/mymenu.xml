@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/about"
+        android:id="@+id/about"
+        app:showAsAction="always"/>
+    <item
+        android:title="How to play?"
+        android:id="@+id/howToPlay"/>
+
+</menu>

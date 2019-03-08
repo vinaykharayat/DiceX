@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DiceX</string>
+    <string name="about">About</string>
+    <string name="appVersion">Version: v1.0</string>
+    <string name="developer">Developer: Vinay Kharayat</string>
+    <string name="rollButton">Roll em!</string>
+    <string name="myScore">Score:</string>
+</resources>
