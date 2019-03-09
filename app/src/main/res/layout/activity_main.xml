@@ -28,7 +28,7 @@
 
         <ImageButton
             android:id="@+id/number1"
-            android:layout_width="50dp"
+            android:layout_width="45dp"
             android:layout_height="50dp"
             android:maxWidth="10dp"
             android:maxHeight="10dp"
@@ -37,7 +37,7 @@
 
         <ImageButton
             android:id="@+id/number2"
-            android:layout_width="50dp"
+            android:layout_width="45dp"
             android:layout_height="50dp"
             android:maxWidth="10dp"
             android:maxHeight="10dp"
@@ -46,7 +46,7 @@
 
         <ImageButton
             android:id="@+id/number3"
-            android:layout_width="50dp"
+            android:layout_width="45dp"
             android:layout_height="50dp"
             android:maxWidth="10dp"
             android:maxHeight="10dp"
@@ -55,7 +55,7 @@
 
         <ImageButton
             android:id="@+id/number4"
-            android:layout_width="50dp"
+            android:layout_width="45dp"
             android:layout_height="50dp"
             android:maxWidth="10dp"
             android:maxHeight="10dp"
@@ -64,7 +64,7 @@
 
         <ImageButton
             android:id="@+id/number5"
-            android:layout_width="50dp"
+            android:layout_width="45dp"
             android:layout_height="50dp"
             android:maxWidth="10dp"
             android:maxHeight="10dp"
@@ -73,7 +73,7 @@
 
         <ImageButton
             android:id="@+id/number6"
-            android:layout_width="50dp"
+            android:layout_width="45dp"
             android:layout_height="50dp"
             android:maxWidth="10dp"
             android:maxHeight="10dp"
@@ -82,7 +82,7 @@
 
         <ImageButton
             android:id="@+id/number7"
-            android:layout_width="50dp"
+            android:layout_width="45dp"
             android:layout_height="50dp"
             android:maxWidth="10dp"
             android:maxHeight="10dp"
@@ -91,12 +91,21 @@
 
         <ImageButton
             android:id="@+id/number8"
-            android:layout_width="50dp"
+            android:layout_width="45dp"
             android:layout_height="50dp"
             android:maxWidth="10dp"
             android:maxHeight="10dp"
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/image_eight" />
+
+        <ImageButton
+            android:id="@+id/number9"
+            android:layout_width="45dp"
+            android:layout_height="50dp"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/image_nine" />
     </LinearLayout>
 
     <LinearLayout

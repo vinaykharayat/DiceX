@@ -5,4 +5,5 @@
     <string name="developer">Developer: Vinay Kharayat</string>
     <string name="rollButton">Roll em!</string>
     <string name="myScore">Score:</string>
+    <string name="cannotSelect">You have already selected two numbers</string>
 </resources>
