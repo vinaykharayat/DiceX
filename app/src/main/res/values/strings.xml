@@ -1,9 +1,13 @@
 <resources>
     <string name="app_name">DiceX</string>
     <string name="about">About</string>
-    <string name="appVersion">Version: v1.0</string>
+    <string name="appVersion">Version: v1.0 (Just for project)</string>
     <string name="developer">Developer: Vinay Kharayat</string>
     <string name="rollButton">Roll em!</string>
     <string name="myScore">Score:</string>
     <string name="cannotSelect">You have already selected two numbers</string>
+    <string name="helpTitle">How to play?</string>
+    <string name="step1">1. Roll the dices using Roll button.</string>
+    <string name="step2">2. Select the numbers(1-9) after rolling dice. Choose any combination which is equal to the sum of numbers appeared on dice.</string>
+    <string name="step3">3. Roll dice again until sum of numbers on dice are greater than the available numbers</string>
 </resources>
