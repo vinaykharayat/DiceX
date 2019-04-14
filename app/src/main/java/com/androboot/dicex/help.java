@@ -15,7 +15,8 @@ public class help extends AppCompatActivity {
         closeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                finish();
+                setContentView(R.layout.activity_main);
             }
         });
 

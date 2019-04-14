@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     int myScore = 45;
     int valueLeftDice;
     int valueRightDice;
-    boolean check1=true;
+    boolean check1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -116,7 +116,12 @@ public class MainActivity extends AppCompatActivity {
                 for (i = 0; i < 9; i++) {
                     if (view.getId() == buttonID[i]) {
                         Log.d("debug", "You clicked " + ++i);
-                        getSelectedNumber(i, view);
+                        //getSelectedNumber(i, view);
+                        check1=checkSelection(i);
+                        if(check1){
+                            ((ImageButton) view).setImageResource(selectedImageID[--i]);
+                            check1=false;
+                        }
                     }
                 }
             }
@@ -129,13 +134,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //Finds the selected number by user, check selection and update score.
-    private void getSelectedNumber(int selectedNumber, View view){
+    /*private void getSelectedNumber(int selectedNumber, View view){
         check1=checkSelection(selectedNumber);
         if(check1){
             ((ImageButton) view).setImageResource(selectedImageID[--selectedNumber]);
             check1=false;
         }
-    }
+    }*/
 
     private boolean checkSelection(int selection) {
         if(selection==sum)
